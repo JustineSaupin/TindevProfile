@@ -18,3 +18,7 @@ const swipe = document.querySelector('.swiper');
 swipe.ontouchmove = function() {
   match.classList.add('shady')
 }
+
+document.onscroll = function() {
+  match.classList.add('shady')
+}
