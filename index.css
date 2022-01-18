@@ -140,7 +140,7 @@ body {
   line-height: 35px;
 }
 
-.match:hover {
+.shady {
   animation: shady 3s linear infinite;
   cursor : pointer;
 }
