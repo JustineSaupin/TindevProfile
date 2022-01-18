@@ -12,3 +12,9 @@ const reseau = document.querySelector('.reseau');
 match.onclick = function() {
   reseau.classList.toggle('hidden');
 }
+
+const swipe = document.querySelector('.swiper');
+
+swipe.ontouchmove = function() {
+  match.classList.add('shady')
+}
