@@ -19,6 +19,10 @@ swipe.ontouchmove = function() {
   match.classList.add('shady')
 }
 
-document.onscroll = function() {
-  match.classList.add('shady')
-}
+// document.onscroll = function() {
+//   match.classList.add('shady')
+// }
+
+window.addEventListener('load', (event) => {
+  match.classList.add('shady');
+});
